@@ -4,8 +4,248 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
-</head>
 <body>
-    
+    <header class="header container">
+        <div class="header__start">
+          <a href="/fr/">
+            <img
+              class="header__logo"
+              src="/assets/icons/Logo.svg"
+              alt="logo d'Optic 3000"
+              width="48"
+              height="48"
+            />
+          </a>
+        </div>
+  
+        <div class="header__end">
+          <a href="/fr/">
+            <img
+              class="header__logo"
+              src="/assets/icons/ChangementlangueEn.svg"
+              alt="Changement de langue pour passer le site en anglais"
+              width="50"
+              height="50"
+            />
+          </a>
+        </div>
+  
+          <button
+            class="header__menu-btn menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+          >
+            <span class="menu-btn__bar"></span>
+          </button>
+  
+          <!-- Menu principal -->
+          <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+              <li class="menu__item">
+                <a class="menu__link" href="index.html"
+                  >Accueil</a
+                >
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="objet.html">Les lunettes futuristes de l'an 3000</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="livre.html">Univers Marvel : Une plongée dans l'Empire de Stark Industries</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="film.html">Spider-Man Far From Home : Héritage et Technologie de Stark</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="realisateur.html">Jon Watts : De Clown à Spider-Man</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="musique.html">The Plot Thickens : Un Chef-d'œuvre Musical pour Mission Impossible 7</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="galerie.html">Galerie</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="glossaire.html">Glossaire</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- Fin du menu principal -->
+        </div>
+      </header>
+      <!-- Contenu principal de la page -->
+      <main>
+        <div class="hero">
+          <div class="hero__header container">
+            <h1 class="hero__title">Optic 3000</h1>
+            <div class="hero__img duotone">
+              <img
+                src="/assets/img/accueil.webp"
+                alt="Gros plan sur la main d'un musicien jouant du violoncelle. L'accent est mis sur la main tenant l'archet, suggérant une scène de performance ou de répétition."
+                width="480"
+                height="820"
+              />
+            </div>
+          </div>
+        <section class="section container">
+          <article class="section__card card">
+            <div class="card__img duotone">
+              <img
+                src="/assets/img/lunettesfuturistepetites.webp"
+                alt="Robot avec des lunettes futuristes"
+                width="981"
+                height="750"
+                loading="lazy"
+              />
+            </div>
+            <div class="card__caption">
+              <h3 class="card__date">Les lunettes futuristes</h3>
+              <p class="card__excerpt">
+                Les lunettes futuristes de l’an 3000 repoussent les limites avec réalité augmentée, surveillance santé et bien plus encore.
+              </p>
+              <button class="card__button" onclick= "window.location.href='objet.html'">Lire l'article</button>
+            </div>
+          </article>
+  
+          <article class="section__card card">
+            <div class="card__img duotone">
+              <img
+                src="/assets/img/marvelpetite.webp"
+                alt="Image du logo Marvel"
+                width="981"
+                height="750"
+                loading="lazy"
+              />
+            </div>
+            <div class="card__caption">
+              <h3 class="card__date">Marvel Univers</h3>
+              <p class="card__excerpt">
+                Dans un univers où super-héros et technologies se rencontrent, "Univers Marvel" dévoile les secrets de Stark Industries et bien plus encore.
+              </p>
+              <button class="card__button" onclick= "window.location.href='livre.html'">Lire l'article</button>
+            </div>
+          </article>
+  
+          <article class="section__card card">
+            <div class="card__img duotone">
+              <img
+                src="/assets/img/spidermanpetite.webp"
+                alt="Affiche du film Spider-Man Far From Home"
+                width="981"
+                height="750"
+                loading="lazy"
+              />
+            </div>
+            <div class="card__caption">
+              <h3 class="card__date">Spider-Man Far From Home</h3>
+              <p class="card__excerpt">
+                Spider-Man Far From Home nous entraîne dans l'aventure post-Endgame. Peter Parker doit jongler entre vie d'ado et héroïsme.
+              </p>
+              <button class="card__button" onclick= "window.location.href='film.html'">Lire l'article</button>
+            </div>
+          </article>
+          
+          <article class="section__card card">
+            <div class="card__img duotone">
+              <img
+                src="/assets/img/jonwattspetite.webp"
+                alt="Image du réalisateur Jon Watts"
+                width="981"
+                height="750"
+                loading="lazy"
+              />
+            </div>
+            <div class="card__caption">
+              <h3 class="card__date">Jon Watts</h3>
+              <p class="card__excerpt">
+                De ses débuts dans le cinéma indépendant à la réalisation des blockbusters Marvel, Jon Watts a su s'imposer comme un réalisateur polyvalent et talentueux.
+              </p>
+              <button class="card__button" onclick= "window.location.href='realisateur.html'">Lire l'article</button>
+            </div>
+          </article>
+
+          <article class="section__card card">
+            <div class="card__img duotone">
+              <img
+                src="/assets/img/missionimpossiblepetite.webp"
+                alt="Image de la cover de la musique The Plot Thickens"
+                width="981"
+                height="750"
+                loading="lazy"
+              />
+            </div>
+            <div class="card__caption">
+              <h3 class="card__date">The Plot Thickens</h3>
+              <p class="card__excerpt">
+                La musique "The Plot Thickens" dans Mission Impossible 7 ajoute une dimension intense et mystérieuse, idéale pour la scène des lunettes futuristes.
+              </p>
+              <button class="card__button" onclick= "window.location.href='musique.html'">Lire l'article</button>
+            </div>
+          </article>
+        </section>
+      </main>
+      <footer class="footer">
+        <img
+          class="footer__logo"
+          src="/assets/icons/Logo.svg"
+          alt="Logo d'Optic 3000"
+          width="48"
+          height="48"
+      />
+        <section class="footer__contact-info">
+            <h3>Ugo LIPPI</h3>
+            <h3>Groupe B2</h3>
+            <h3><a href="mailto:ugolippi25@gmail.com">ugolippi25@gmail.com</a></h3>
+        </section>
+        <nav class="footer__nav-links">
+            <h3>Navigation</h3>
+            <a href="#">Galerie</a>
+            <a href="#">Contact</a>
+            <a href="#">À propos</a>
+            <a href="#">Autres projets</a>
+        </nav>
+        <section class="footer__mention-legale">
+            <p>Projet réalisé en 2024 dans le cadre d'un exercice pédagogique au département <a href="https://blogdummi.fr/">MMI de Montbéliard</a></p>
+        </section>
+        <section class="footer__social-media">
+            <ul>
+              <li>
+                <a
+                  href="https://instagram.com/lippiugo"
+                  aria-label="Visitez la page Instagram"
+                >
+                  <img
+                    src="/assets/icons/Instagram.svg"
+                    aria-hidden="true"
+                    alt=""
+                    width="24"
+                    height="24"
+                  />
+                </a>
+              </li>
+            </ul>
+        </section>
+        <section class="footer__mmi-logo">
+            <ul>
+              <li>
+                <a
+                  href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/"
+                  aria-label="Visitez la page MMI"
+                >
+                  <img
+                    src="/assets/icons/MMI.svg"
+                    aria-hidden="true"
+                    alt=""
+                    width="24"
+                    height="24"
+                  />
+                </a>
+              </li>
+            </ul>
+        </section>
+      </footer>
 </body>
 </html>
