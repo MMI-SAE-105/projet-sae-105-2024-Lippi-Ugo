@@ -7,7 +7,8 @@
     <meta name="description" content="Site d'Optic 3000" />
     <link rel="stylesheet" href="/src/css/style.css" />
     <script type="module" src="/src/js/script.js"></script>
-    <title>Accueil</title>
+    <title>The Plot Thickens</title>
+</head>
 <body>
     <header class="header container">
         <div class="header__start">
@@ -23,7 +24,7 @@
         </div>
   
         <div class="header__end">
-          <a href="/en/index.html">
+          <a href="/en/gallery.html">
             <img
               class="header__logo"
               src="/assets/icons/Changementlangue.svg"
@@ -32,7 +33,7 @@
               height="50"
             />
           </a>
-
+  
           <button
             class="header__menu-btn menu-btn"
             aria-label="menu"
@@ -74,122 +75,28 @@
           <!-- Fin du menu principal -->
         </div>
       </header>
-      <!-- Contenu principal de la page -->
       <main>
         <div class="hero">
           <div class="hero__header container">
-            <h1 class="hero__title">Optic 3000</h1>
-            <div class="hero__img duotone-bleu">
+            <h1 class="hero__title">Galerie</h1>
+            <div class="hero__img duotone">
               <img
-                src="/assets/img/accueil.webp"
-                alt="Personne portant des lunettes futuristes et technologique"
+                src="/assets/img/imagegalerie.webp"
+                alt="Image de la galerie"
                 width="480"
                 height="820"
               />
             </div>
           </div>
-          <div class="hero__chapo chapo container">
-            <p class="chapo__text">
-              Les lunettes sont des objets du quotidien qui ont largement évolué depuis leur création et qui risquent de subir une transformation phénoménale d’ici l’an 3000.
-            </p>
           </div>
         </div>
-        <section class="section container">
-          <article class="section__card card">
-            <div class="card__img duotone">
-              <img
-                src="/assets/img/lunettesfuturistepetites.webp"
-                alt="Robot avec des lunettes futuristes"
-                width="981"
-                height="750"
-                loading="lazy"
-              />
-            </div>
-            <div class="card__caption">
-              <h3 class="card__date">Les lunettes futuristes</h3>
-              <p class="card__excerpt">
-                Les lunettes futuristes de l’an 3000 repoussent les limites avec réalité augmentée, surveillance santé et bien plus encore.
-              </p>
-              <button class="card__button" onclick= "window.location.href='objet.html'">Lire l'article</button>
-            </div>
-          </article>
-  
-          <article class="section__card card">
-            <div class="card__img duotone">
-              <img
-                src="/assets/img/marvelpetite.webp"
-                alt="Image du logo Marvel"
-                width="981"
-                height="750"
-                loading="lazy"
-              />
-            </div>
-            <div class="card__caption">
-              <h3 class="card__date">Marvel Univers</h3>
-              <p class="card__excerpt">
-                Dans un univers où super-héros et technologies se rencontrent, "Univers Marvel" dévoile les secrets de Stark Industries et bien plus encore.
-              </p>
-              <button class="card__button" onclick= "window.location.href='livre.html'">Lire l'article</button>
-            </div>
-          </article>
-  
-          <article class="section__card card">
-            <div class="card__img duotone">
-              <img
-                src="/assets/img/spidermanpetite.webp"
-                alt="Affiche du film Spider-Man Far From Home"
-                width="981"
-                height="750"
-                loading="lazy"
-              />
-            </div>
-            <div class="card__caption">
-              <h3 class="card__date">Spider-Man Far From Home</h3>
-              <p class="card__excerpt">
-                Spider-Man Far From Home nous entraîne dans l'aventure post-Endgame. Peter Parker doit jongler entre vie d'ado et héroïsme.
-              </p>
-              <button class="card__button" onclick= "window.location.href='film.html'">Lire l'article</button>
-            </div>
-          </article>
-          
-          <article class="section__card card">
-            <div class="card__img duotone">
-              <img
-                src="/assets/img/jonwattspetite.webp"
-                alt="Image du réalisateur Jon Watts"
-                width="981"
-                height="750"
-                loading="lazy"
-              />
-            </div>
-            <div class="card__caption">
-              <h3 class="card__date">Jon Watts</h3>
-              <p class="card__excerpt">
-                De ses débuts dans le cinéma indépendant à la réalisation des blockbusters Marvel, Jon Watts a su s'imposer comme un réalisateur polyvalent et talentueux.
-              </p>
-              <button class="card__button" onclick= "window.location.href='realisateur.html'">Lire l'article</button>
-            </div>
-          </article>
-
-          <article class="section__card card">
-            <div class="card__img duotone">
-              <img
-                src="/assets/img/missionimpossiblepetite.webp"
-                alt="Image de la cover de la musique The Plot Thickens"
-                width="981"
-                height="750"
-                loading="lazy"
-              />
-            </div>
-            <div class="card__caption">
-              <h3 class="card__date">The Plot Thickens</h3>
-              <p class="card__excerpt">
-                La musique "The Plot Thickens" dans Mission Impossible 7 ajoute une dimension intense et mystérieuse, idéale pour la scène des lunettes futuristes.
-              </p>
-              <button class="card__button" onclick= "window.location.href='musique.html'">Lire l'article</button>
-            </div>
-          </article>
-        </section>
+        <div class="galerie">
+          <img src="/assets/img/affichespidermanfarfromhome.webp" alt="Affiche du film Spider-Man Far From Home">
+          <img src="/assets/img/affichemissionimpossible.webp" alt="Affiche du film Mission Impossible Dead Reckoning Partie 1">
+          <img src="/assets/img/affichereadyplayerone.webp" alt="Affiche du film Ready Player One">
+          <img src="/assets/img/affichekingsman.webp" alt="Affiche du film Kingsman Services Secrets">
+          <img src="/assets/img/afficheminorityreport.webp" alt="Affiche du film Mission Minority Report">
+        </div>
       </main>
       <footer class="footer">
         <img
@@ -204,7 +111,7 @@
             <h3>Groupe B2</h3>
             <h3><a href="mailto:ugolippi25@gmail.com">ugolippi25@gmail.com</a></h3>
         </section>
-        <nav class="footer-li">
+        <nav class="footer__nav-links">
             <h3>Navigation</h3>
             <a href="#">Galerie</a>
             <a href="#">Contact</a>
