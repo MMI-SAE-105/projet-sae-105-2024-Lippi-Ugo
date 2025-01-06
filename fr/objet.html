@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Site d'Optic 3000" />
-
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
     <title>Les lunettes futuristes</title>
 </head>
 <body>
@@ -44,21 +45,21 @@
   
           <!-- Menu principal -->
           <nav class="header__menu menu" id="mainNav" aria-hidden="true">
-            <ul>
+            <ul class="menu__list list-unstyled">
               <li class="menu__item">
                 <a class="menu__link" href="objet.html">Les lunettes futuristes de l'an 3000</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="livre.html">Univers Marvel : Une plongée dans l'Empire de Stark Industries</a>
+                <a class="menu__link" href="livre.html">Univers Marvel Une plongée dans l'Empire de Stark Industries</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="film.html">Spider-Man Far From Home : Héritage et Technologie de Stark</a>
+                <a class="menu__link" href="film.html">Spider-Man Far From Home Héritage et Technologie de Stark</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="realisateur.html">Jon Watts : De Clown à Spider-Man</a>
+                <a class="menu__link" href="realisateur.html">Jon Watts De Clown à Spider-Man</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="musique.html">The Plot Thickens : Un Chef-d'œuvre Musical pour Mission Impossible 7</a>
+                <a class="menu__link" href="musique.html">The Plot Thickens Un Chef-d'œuvre Musical pour Mission Impossible 7</a>
               </li>
               <li class="menu__item">
                 <a class="menu__link" href="galerie.html">Galerie</a>
@@ -78,7 +79,7 @@
         <div class="hero">
           <div class="hero__header container">
             <h1 class="hero__title">Les lunettes futuristes de l'an 3000</h1>
-            <div class="hero__img duotone">
+            <div class="hero__img duotone-bleu">
               <img
                 src="/assets/img/lunettes-futuristes.webp"
                 alt="Gros plan sur une personne portant des lunettes futuristes"
@@ -145,80 +146,8 @@
               Lunettes futuristes en fibre de carbone avec fonctionnalités de haute technologie.
             </figcaption>
           </figure>
-        </div>
-        <div class="timeline">
-          <div class="timeline__column">
-              <div class="timeline__item">
-                  <h2 class= "timeline__year">1500</h2>
-                  <p class="timeline__description">Besicles en cuir</p>
-                  <img class="timeline__image" src="/assets/img/besicles.webp" alt="Besicles en cuir">
-              </div>
-              <div class="timeline__item">
-                  <h2 class= "timeline__year">1510</h2>
-                  <p class="timeline__description">Monocle</p>
-                  <img class="timeline__image" src="/assets/img/monocle.webp" alt="Monocle">
-              </div>
-              <div class="timeline__item">
-                  <h2 class= "timeline__year">1550</h2>
-                  <p class="timeline__description">Lunettes en corne et en cuir</p>
-                  <img class="timeline__image" src="/assets/img/lunettecorneetcuir.webp" alt="Lunettes en corne et en cuir">
-              </div>
-              <div class="timeline__item">
-                  <h2 class= "timeline__year">1752</h2>
-                  <p class="timeline__description">Lunettes à tempes</p>
-                  <img class="timeline__image" src="/assets/img/lunettetempe.webp" alt="Lunettes à tempes">
-              </div>
-              <div class="timeline__item">
-                  <h2 class= "timeline__year">1784</h2>
-                  <p class="timeline__description">Verres double foyer</p>
-                  <img class="timeline__image" src="/assets/img/verredoublefoyer.webp" alt="Verres double foyer">
-              </div>
-              <div class="timeline__item">
-                  <h2 class= "timeline__year">1835</h2>
-                  <p class="timeline__description">Binocles</p>
-                  <img class="timeline__image" src="/assets/img/binocles.webp" alt="Binocles">
-              </div>
-              <div class="timeline__item">
-                  <h2 class= "timeline__year">1850</h2>
-                  <p class="timeline__description">Pince-nez</p>
-                  <img class="timeline__image" src="/assets/img/pincenez.webp" alt="Pince-nez">
-              </div>
-              <div class="timeline__item">
-                  <h2 class= "timeline__year">1855</h2>
-                  <p class="timeline__description">Monocle féminin</p>
-                  <img class="timeline__image" src="/assets/img/monoclefeminin.webp" alt="Monocle féminin">
-              </div>
-              <div class="timeline__item">
-                  <h2 class= "timeline__year">1895</h2>
-                  <p class="timeline__description">Face-à-main (à long manche et sans corde)</p>
-                  <img class="timeline__image" src="/assets/img/facemainlong.webp" alt="Face-à-main (à long manche et sans corde)">
-              </div>
-              <div class="timeline__item">
-                  <h2 class= "timeline__year">1895</h2>
-                  <p class="timeline__description">Face-à-main (à petit manche et avec corde)</p>
-                  <img class="timeline__image" src="/assets/img/facemaincourt.webp" alt="Face-à-main (à petit manche et avec corde)">
-              </div>
-              <div class="timeline__item">
-                  <h2 class= "timeline__year">1925</h2>
-                  <p class="timeline__description">Lunette-fil / lunette-cheveu</p>
-                  <img class="timeline__image" class="timeline__image" src="/assets/img/lunettefil.webp" alt="Lunette-fil / lunette-cheveu">
-              </div>
-              <div class="timeline__item">
-                  <h2 class= "timeline__year">2000</h2>
-                  <p class="timeline__description">Lunette d'aujourd'hui</p>
-                  <img class="timeline__image" src="/assets/img/lunetteaujourdhui.webp" alt="Lunettes d'aujourd'hui">
-              </div>
-              <div class="timeline__item">
-                  <h2 class= "timeline__year">2030</h2>
-                  <p class="timeline__description">Apple Glass</p>
-                  <img class="timeline__image" src="/assets/img/appleglass.webp" alt="Apple Glass">
-              </div>
-              <div class="timeline__item">
-                  <h2 class= "timeline__year">3000</h2>
-                  <p class="timeline__description">Lunette intelligente</p>
-                  <img class="timeline__image" src="/assets/img/lunettesfutur.webp" alt="Lunette intelligente">
-              </div>
-          </div>
+          <h2>Frise Chronologique</h2>
+          <img src="/assets/img/frise.webp" alt="">
         </div>
         <div class="alireaussi">
           <h2>
