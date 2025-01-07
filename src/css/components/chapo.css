@@ -1,0 +1,18 @@
+.chapo {
+    padding-top: var(--space4x);
+    padding-bottom: var(--space4x);
+    font-weight: bold;
+}
+
+.chapo__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chapo__link {
+    display: flex;
+    flex-direction: column;
+    color: var(--black);
+    text-decoration: none;
+    padding: 0 var(--space3x);
+}
