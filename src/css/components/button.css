@@ -1,16 +1,12 @@
 .button {
-    background-color: #3399FF; /* Couleur de fond bleue */
-    border: 2px solid white; /* Bordure blanche */
-    color: white; /* Texte blanc */
-    padding: 15px 32px; /* Espacement interne du bouton */
-    text-align: center; /* Texte centré */
-    text-decoration: none; /* Pas de soulignement */
-    display: inline-block; /* Affichage en ligne */
-    font-size: 16px; /* Taille de la police */
-    border-radius: 10px; /* Coins arrondis */
-    cursor: pointer; /* Curseur en forme de main au survol */
-}
-
-.button:hover {
-    background-color: #007BFF; /* Bleu plus foncé au survol */
+    background-color: var(--bleu);
+    border: 2px solid var(--blanc);
+    color: var(--blanc);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: var(--h3);
+    border-radius: 10px;
+    cursor: pointer;
 }

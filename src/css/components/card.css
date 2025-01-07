@@ -40,15 +40,15 @@
 .section-container { 
     display: flex; 
     flex-direction: column; 
-    gap: var(--space2x); 
+    gap: var(--space7x); 
     padding: var(--space2x); 
     background-color: var(--blanc);
 }
   
 .section__card {
-    background-color: var(--blanc);
+    background-color: var(--gris);
     border-radius: var(--space1x);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px var(--noir);
     overflow: hidden;
     transition: transform 0.3s;
     width: 100%;
@@ -56,7 +56,7 @@
 }
   
 .section__card:hover {
-    transform: translateY(-var(--space1x));
+    transform: translateY(var(--space1x));
 }
   
 .card__caption {
@@ -69,16 +69,16 @@
     height: 100%;
 }
   
-.card__date {
+.card__title {
     font-size: var(--h2);
     margin-bottom: var(--space1x);
-    color: var(--bleu-fonce);
+    color: var(--noir);
 }
   
 .card__excerpt {
     font-size: var(--body);
     margin-bottom: var(--space2x);
-    color: var(--bleu-fonce);
+    color: var(--noir);
 }
   
 .card__button {
@@ -86,7 +86,7 @@
     padding: var(--space2x) var(--space3x);
     background-color: var(--bleu);
     color: var(--blanc);
-    border: none;
+    border: 2px solid var(--blanc);
     border-radius: var(--space1x);
     text-decoration: none;
     font-size: var(--h3);
