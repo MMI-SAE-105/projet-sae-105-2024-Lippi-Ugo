@@ -1,0 +1,22 @@
+.footer {
+    background-color: var(--bleu-fonce);
+    color: var(--blanc);
+    padding: var(--space4x) var(--space3x);
+    a {
+      color: var(--blanc);
+      text-decoration: none;
+    }
+}
+
+.footer__menu{
+    font-size: var(--h3);
+}
+  
+.footer__list {
+    display: flex;
+    gap: var(--space3x);
+}
+  
+.footer > *:not(:first-child) {
+    margin-top: var(--space3x);
+}
