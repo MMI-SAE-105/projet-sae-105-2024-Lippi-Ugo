@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Oxanium:wght@200..800&display=swap");
+/* Vendors */
+@import "vendors/normalize.css";
+
+/* Utils */
+@import "utils/variable.css";
+
+/* Base */
+@import "base/main.css";
+@import "base/media.css";
+
+/* Layout */
+@import "layout/header.css";
+@import "layout/footer.css";
+
+/* Components */
+@import "components/menu.css";
+@import "components/hero.css";
+@import "components/chapo.css";
+@import "components/button.css";
+@import "components/card.css";
+@import "components/formulaire.css";
+@import "components/carrousel.css";
