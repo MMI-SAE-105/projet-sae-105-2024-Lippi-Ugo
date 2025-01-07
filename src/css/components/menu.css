@@ -1,0 +1,73 @@
+.menu {
+  visibility: hidden;
+  opacity: 0;
+  overflow: hidden;
+  position: fixed;
+  display: flex;
+  position: fixed;
+  inset: 0;
+  background-color: var(--bleu-fonce);
+  font-size: var(--menu);
+  letter-spacing: var(--letter-spacing);
+  transition: all 0.4s ease-in-out;
+}
+
+.menu[aria-hidden="false"] {
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu__list {
+  margin-top: 213px;
+  margin-left: 38px;
+}
+
+.menu__item {
+  margin-bottom: 30px;
+  width: 333px;
+}
+
+.menu__link {
+  color: var(--blanc);
+  text-decoration: none;
+}
+
+.menu-btn {
+    position: relative;
+    z-index: 3;
+    width: 30px;
+  }
+  
+.menu-btn__bar,
+.menu-btn__bar::before,
+.menu-btn__bar::after {
+    content: "";
+    background: var(--blanc);
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    transition: all 0.4s ease-in-out;
+}
+  
+.menu-btn__bar::before {
+    top: -10px;
+}
+  
+.menu-btn__bar::after {
+    top: 10px;
+}
+  
+.menu-btn[aria-expanded="true"] .menu-btn__bar,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(135deg);
+    background: var(--blanc);
+}
+  
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(90deg);
+    top: 0;
+}
