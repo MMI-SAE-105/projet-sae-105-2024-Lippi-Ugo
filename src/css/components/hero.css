@@ -7,7 +7,7 @@
     position: relative;
     overflow: hidden;
     text-align: center;
-    padding-left: var(--space2x);
+    padding-right: var(--space2x);
 }
 
 .hero__img {
