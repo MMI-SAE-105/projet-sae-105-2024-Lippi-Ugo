@@ -1,0 +1,145 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+  
+  /* Mise en forme des légendes pour les images */
+figure {
+    margin: 0;
+}
+  
+figcaption {
+    font-size: var(--small-text);
+    color: var(--black);
+}
+  
+.duotone-bleu {
+    background: var(--bleu-clair);
+    position: relative;
+}
+  
+.duotone-bleu::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: var(--bleu-fonce);
+    mix-blend-mode: lighten;
+}
+
+.duotone-bleu > img {
+  filter: grayscale(100%);
+  mix-blend-mode: multiply;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.duotone-violet {
+  background: var(--rose);
+  position: relative;
+}
+
+.duotone-violet::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-color: var(--violet);
+  mix-blend-mode: lighten;
+}
+
+.duotone-violet > img {
+  filter: grayscale(100%);
+  mix-blend-mode: multiply;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.duotone-vert {
+  background: var(--vert-deau);
+  position: relative;
+}
+
+.duotone-vert::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-color: var(--bleu-fonce);
+  mix-blend-mode: lighten;
+}
+  
+.duotone-vert > img {
+    filter: grayscale(100%);
+    mix-blend-mode: multiply;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.duotone-rose {
+  background: var(--rose);
+  position: relative;
+}
+
+.duotone-rose::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-color: var(--bleu-fonce);
+  mix-blend-mode: lighten;
+}
+  
+.duotone-rose > img {
+    filter: grayscale(100%);
+    mix-blend-mode: multiply;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.duotone-bleufonce {
+  background: var(--violet);
+  position: relative;
+}
+
+.duotone-bleufonce::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-color: var(--bleu-fonce);
+  mix-blend-mode: lighten;
+}
+
+
+.duotone-bleufonce::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background-color: var(--bleu);
+  mix-blend-mode: multiply;
+}
+
+.duotone-bleufonce > img {
+  filter: grayscale(100%);
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  
+.duotone-hero > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
