@@ -7,7 +7,7 @@
     <meta name="description" content="Site d'Optic 3000" />
     <link rel="stylesheet" href="/src/css/style.css" />
     <script type="module" src="/src/js/script.js"></script>
-    <title>The Plot Thickens</title>
+    <title>Galerie</title>
 </head>
 <body>
     <header class="header container">
@@ -79,7 +79,7 @@
         <div class="hero">
           <div class="hero__header container">
             <h1 class="hero__title">Galerie</h1>
-            <div class="hero__img duotone">
+            <div class="hero__img duotone-bleu">
               <img
                 src="/assets/img/imagegalerie.webp"
                 alt="Image de la galerie"
@@ -90,26 +90,30 @@
           </div>
           </div>
         </div>
-        <div class="galerie">
-          <img src="/assets/img/affichespidermanfarfromhome.webp" alt="Affiche du film Spider-Man Far From Home">
-          <img src="/assets/img/affichemissionimpossible.webp" alt="Affiche du film Mission Impossible Dead Reckoning Partie 1">
-          <img src="/assets/img/affichereadyplayerone.webp" alt="Affiche du film Ready Player One">
-          <img src="/assets/img/affichekingsman.webp" alt="Affiche du film Kingsman Services Secrets">
-          <img src="/assets/img/afficheminorityreport.webp" alt="Affiche du film Mission Minority Report">
-        </div>
+        <section class="container">
+          <div class="galerie">
+            <img src="/assets/img/affichespidermanfarfromhome.webp" alt="Affiche du film Spider-Man Far From Home" class="galerie__img">
+            <img src="/assets/img/affichemissionimpossible.webp" alt="Affiche du film Mission Impossible Dead Reckoning Partie 1" class="galerie__img">
+            <img src="/assets/img/affichereadyplayerone.webp" alt="Affiche du film Ready Player One" class="galerie__img">
+            <img src="/assets/img/affichekingsman.webp" alt="Affiche du film Kingsman Services Secrets" class="galerie__img">
+            <img src="/assets/img/afficheminorityreport.webp" alt="Affiche du film Mission Minority Report" class="galerie__img">
+          </div>
+        </section>
       </main>
       <footer class="footer">
-        <img
-          class="footer__logo"
-          src="/assets/icons/Logo.svg"
-          alt="Logo d'Optic 3000"
-          width="48"
-          height="48"
-      />
         <section class="footer__contact-info">
-            <h3>Ugo LIPPI</h3>
-            <h3>Groupe B2</h3>
-            <h3><a href="mailto:ugolippi25@gmail.com">ugolippi25@gmail.com</a></h3>
+            <div class="footer__info">
+              <h3>Ugo LIPPI</h3>
+              <h3>Groupe B2</h3>
+              <h3><a href="mailto:ugolippi25@gmail.com">ugolippi25@gmail.com</a></h3>
+            </div>
+            <img 
+            class="footer__logo"
+            src="/assets/icons/Logo.svg"
+            alt="Logo d'Optic 3000"
+            width="48"
+            height="48"
+            />
         </section>
         <nav class="footer__menu">
           <ul class="list-unstyled">
@@ -120,7 +124,7 @@
           </ul>
         </nav>
         <section class="footer__mention-legale">
-            <p>Projet réalisé en 2024 dans le cadre d'un exercice pédagogique au département <u><a href="https://blogdummi.fr/">MMI de Montbéliard</a></u></p>
+            <p class="mention__text">Projet réalisé en 2024 dans le cadre d'un exercice pédagogique au département <u><a href="https://blogdummi.fr/">MMI de Montbéliard</a></u></p>
         </section>
         <section class="footer__social-media">
             <ul class="footer__list list-unstyled">
