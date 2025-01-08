@@ -102,3 +102,29 @@ uniquement accessible aux lecteurs vocaux (sr = screen reader) */
 .galerie__img{
   padding-top : var(--space6x);
 }
+
+.projets__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.projets__list a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding-top: var(--space7x);
+}
+
+.projets__list img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.projets__list a:hover {
+  text-decoration: underline;
+}
