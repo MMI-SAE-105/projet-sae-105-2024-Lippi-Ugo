@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : LIPPI
+- PRÉNOM : Ugo
+- GROUPE : B2
+- URL du site : https://optic-3000.ugo-lippi.fr/
+- URL FIGMA : https://www.figma.com/design/V0kDILpwqQpREbs6Gv0QT3/Maquettes-projet-individuel-%E2%80%94-Ugo-LIPPI?node-id=3735-176&t=xpDfKdm66Sq3nrES-0
