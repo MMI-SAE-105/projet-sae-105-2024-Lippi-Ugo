@@ -1,0 +1,37 @@
+.frise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/assets/img/frise.avif');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.frise__item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.frise__item--left {
+    justify-content: flex-start;
+}
+
+.frise__item--right {
+    justify-content: flex-end;
+}
+
+.frise__content {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
+
+.frise__image {
+    width: 120px;
+}
+
+.frise__content > h3 {
+    font-size: var(--h3);
+}

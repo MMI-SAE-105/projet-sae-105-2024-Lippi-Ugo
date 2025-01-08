@@ -33,6 +33,13 @@ h2 {
 h3 {
   font-size: var(--h3);
   line-height: 150%;
+  font-family: var(--font-alegreya);
+  font-weight: normal;
+}
+
+p {
+  font-size: var(--body);
+  font-family: var(--font-alegreya);
 }
 
 /* permet d'annuler la mise en forme des bouton qu'applique le navigateur. */
@@ -56,6 +63,7 @@ button {
 .container {
   padding-left: var(--space4x);
   padding-right: var(--space4x);
+  padding-bottom: var(--space5x);
 }
 
 .noscroll {
@@ -73,4 +81,24 @@ uniquement accessible aux lecteurs vocaux (sr = screen reader) */
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+.alireaussi{
+  padding-left: var(--space4x);
+  padding-right: var(--space5x);
+  padding-bottom: var(--space5x);
+}
+
+.alireaussi__link{
+  color: var(--noir);
+  font-size: var(--body);
+  font-family: var(--font-alegreya);
+}
+
+.txt{
+  padding-bottom: var(--space8x);
+}
+
+.galerie__img{
+  padding-top : var(--space6x);
 }

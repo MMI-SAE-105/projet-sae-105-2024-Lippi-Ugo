@@ -2,6 +2,8 @@
     padding-top: var(--space4x);
     padding-bottom: var(--space4x);
     font-weight: bold;
+    font-family: var(--font-alegreya);
+    font-size: var(--chapo);
 }
 
 .chapo__list {

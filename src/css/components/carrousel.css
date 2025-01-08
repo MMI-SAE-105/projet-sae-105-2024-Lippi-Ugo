@@ -46,4 +46,6 @@ img {
   .text{
       color: var(--blanc);
       text-align: center;
+      font-size: var(--body);
+      font-family: var(--font-alegreya);
   }
