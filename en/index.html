@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Optic 3000 Website" />
+    <meta name="description" content="Optic 3000 Site" />
     <link rel="stylesheet" href="/src/css/style.css" />
     <script type="module" src="/src/js/script.js"></script>
     <title>Home</title>
@@ -27,7 +27,7 @@
             <img
               class="header__logo"
               src="/assets/icons/ChangementlangueEn.svg"
-              alt="Change language to French"
+              alt="Change language to English"
               width="50"
               height="50"
             />
@@ -45,15 +45,14 @@
           <!-- Main Menu -->
           <nav class="header__menu menu" id="mainNav" aria-hidden="true">
             <ul class="menu__list list-unstyled">
-              </li>
               <li class="menu__item">
                 <a class="menu__link" href="object.html">Futuristic Glasses of the Year 3000</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="book.html">Marvel Universe A Dive into Stark Industries Empire</a>
+                <a class="menu__link" href="book.html">Marvel Universe A Dive into the Empire of Stark Industries</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="movie.html">Spider-Man Far From Home Stark's Legacy and Technology</a>
+                <a class="menu__link" href="movie.html">Spider-Man Far From Home Legacy and Technology of Stark</a>
               </li>
               <li class="menu__item">
                 <a class="menu__link" href="director.html">Jon Watts From Clown to Spider-Man</a>
@@ -80,7 +79,7 @@
         <div class="hero">
           <div class="hero__header container">
             <h1 class="hero__title">Optic 3000</h1>
-            <div class="hero__img duotone">
+            <div class="hero__img duotone-bleu">
               <img
                 src="/assets/img/accueil.webp"
                 alt="Person wearing futuristic and technological glasses"
@@ -95,7 +94,7 @@
             </p>
           </div>
         </div>
-        <section class="section container">
+        <section class="section-container">
           <article class="section__card card">
             <div class="card__img duotone">
               <img
@@ -107,7 +106,7 @@
               />
             </div>
             <div class="card__caption">
-              <h3 class="card__date">Futuristic Glasses</h3>
+              <h2 class="card__title">Futuristic Glasses</h2>
               <p class="card__excerpt">
                 The futuristic glasses of the year 3000 push the limits with augmented reality, health monitoring, and much more.
               </p>
@@ -126,7 +125,7 @@
               />
             </div>
             <div class="card__caption">
-              <h3 class="card__date">Marvel Universe</h3>
+              <h2 class="card__title">Marvel Universe</h2>
               <p class="card__excerpt">
                 In a universe where superheroes and technology meet, "Marvel Universe" reveals the secrets of Stark Industries and much more.
               </p>
@@ -145,9 +144,9 @@
               />
             </div>
             <div class="card__caption">
-              <h3 class="card__date">Spider-Man Far From Home</h3>
+              <h2 class="card__title">Spider-Man Far From Home</h2>
               <p class="card__excerpt">
-                Spider-Man Far From Home takes us on an adventure post-Endgame. Peter Parker must juggle between teenage life and heroism.
+                Spider-Man Far From Home takes us on a post-Endgame adventure. Peter Parker must juggle between teenage life and heroism.
               </p>
               <button class="card__button" onclick= "window.location.href='movie.html'">Read the article</button>
             </div>
@@ -164,7 +163,7 @@
               />
             </div>
             <div class="card__caption">
-              <h3 class="card__date">Jon Watts</h3>
+              <h2 class="card__title">Jon Watts</h2>
               <p class="card__excerpt">
                 From his beginnings in independent cinema to directing Marvel blockbusters, Jon Watts has established himself as a versatile and talented director.
               </p>
@@ -183,7 +182,7 @@
               />
             </div>
             <div class="card__caption">
-              <h3 class="card__date">The Plot Thickens</h3>
+              <h2 class="card__title">The Plot Thickens</h2>
               <p class="card__excerpt">
                 The music "The Plot Thickens" in Mission Impossible 7 adds an intense and mysterious dimension, ideal for the futuristic glasses scene.
               </p>
@@ -193,30 +192,33 @@
         </section>
       </main>
       <footer class="footer">
-        <img
-          class="footer__logo"
-          src="/assets/icons/Logo.svg"
-          alt="Optic 3000 Logo"
-          width="48"
-          height="48"
-      />
         <section class="footer__contact-info">
-            <h3>Ugo LIPPI</h3>
-            <h3>Group B2</h3>
-            <h3><a href="mailto:ugolippi25@gmail.com">ugolippi25@gmail.com</a></h3>
+            <div class="footer__info">
+              <h3>Ugo LIPPI</h3>
+              <h3>Group B2</h3>
+              <h3><a href="mailto:ugolippi25@gmail.com">ugolippi25@gmail.com</a></h3>
+            </div>
+            <img 
+            class="footer__logo"
+            src="/assets/icons/Logo.svg"
+            alt="Optic 3000 Logo"
+            width="48"
+            height="48"
+            />
         </section>
-        <nav class="footer__nav-links">
-            <h3>Navigation</h3>
-            <a href="#">Gallery</a>
-            <a href="#">Contact</a>
-            <a href="#">About</a>
-            <a href="#">Other projects</a>
+        <nav class="footer__menu">
+          <ul class="list-unstyled">
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="othersprojects.html">Other Projects</a></li>
+          </ul>
         </nav>
         <section class="footer__mention-legale">
-            <p>Project carried out in 2024 as part of an educational exercise at the <a href="https://blogdummi.fr/">MMI department Montbéliard</a></p>
+            <p class="mention__text">Project carried out in 2024 as part of an educational exercise in the department <u><a href="https://blogdummi.fr/">MMI of Montbéliard</a></u></p>
         </section>
         <section class="footer__social-media">
-            <ul>
+            <ul class="footer__list list-unstyled">
               <li>
                 <a
                   href="https://instagram.com/lippiugo"
@@ -226,16 +228,13 @@
                     src="/assets/icons/Instagram.svg"
                     aria-hidden="true"
                     alt=""
-                    width="24"
-                    height="24"
+                    width="38"
+                    height="38"
                   />
                 </a>
               </li>
-            </ul>
-        </section>
-        <section class="footer__mmi-logo">
-            <ul>
-              <li>
+
+              <li class="footer__mmi-logo">
                 <a
                   href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/"
                   aria-label="Visit the MMI page"
@@ -244,8 +243,8 @@
                     src="/assets/icons/MMI.svg"
                     aria-hidden="true"
                     alt=""
-                    width="24"
-                    height="24"
+                    width="53.07"
+                    height="38"
                   />
                 </a>
               </li>
